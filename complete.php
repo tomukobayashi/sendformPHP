@@ -15,5 +15,7 @@ $hobby=$_POST['hobby'];
     <p>こんにちは<?php echo $user_name ?>さん。</p>
     <p>趣味は<?php echo $hobby ?>ですね。</p>
     <p>登録完了しました。</p>
+
+    <a href="./send.php">トップへ</a>
     </body>
 </html>
